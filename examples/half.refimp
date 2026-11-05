@@ -1,0 +1,9 @@
+program(n) {
+    let result: Int = 0;
+    let remaining: Int = n;
+    while (2 <= remaining) {
+        remaining := remaining - 2;
+        result := result + 1;
+    }
+    return result;
+}

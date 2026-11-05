@@ -1,0 +1,6 @@
+program(m, n) {
+    let p: Ref Int = new(m);
+    let q: Ref Int = p;
+    *q := *q + n;
+    return *p;
+}
